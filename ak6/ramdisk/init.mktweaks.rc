@@ -1,5 +1,3 @@
-# Apply MK2000 Tweaks
-
 on property:sys.boot_completed=1
 
     # Set I/O Scheduler
@@ -12,4 +10,4 @@ on property:sys.boot_completed=1
     # Various Tweaks
     write /sys/module/spurious/parameters/noirqdebug Y
 
-    write /dev/kmsg "MK2K Boot Complete"
+    write /dev/kmsg "YuukaOS Kernel v0.01"
